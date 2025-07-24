@@ -3,6 +3,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 import pluginReact from 'eslint-plugin-react';
 import { defineConfig } from 'eslint/config';
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
 
 export default defineConfig([
   {
@@ -19,14 +20,11 @@ export default defineConfig([
   {
     rules: {
       'react/react-in-jsx-scope': 'off',
-      'react/jsx-indent-props': [2, 2],
-      'semi': ['error', 'always'],
-      'quotes': ['error', 'single'],
-      'indent': ['error', 2],
       'comma-dangle': ['error', 'always-multiline'],
       'object-curly-spacing': ['error', 'always'],
       'react/jsx-key': 'off',
       '@typescript-eslint/no-unused-vars': 'warn',
     },
   },
+  eslintConfigPrettier,
 ]);

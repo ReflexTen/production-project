@@ -20,7 +20,7 @@ const ThemProvider: FC<IProps> = ({ children }) => {
       theme: theme,
       setTheme: setTheme,
     }),
-    [theme],
+    [theme]
   );
 
   return (

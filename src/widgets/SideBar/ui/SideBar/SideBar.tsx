@@ -14,12 +14,6 @@ export const SideBar = ({ className }: SideBarProps) => {
   const onToggle = () => {
     setCollapsed((prev) => !prev);
   };
- 
-
-
-
-
-  
 
   return (
     <div
