@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "language": "EN"
+  },
+  "btn": {
+    "su": "Morre text"
+  },
+  "notFoundPage": "Not Found Page",
+  "unexpectedError": "An unexpected error occurred",
+  "reloadPage": "Reload page"
+}
